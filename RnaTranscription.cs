@@ -6,7 +6,8 @@ public static class TrascrizioneRNA
 {
     public static string ToRna(string dna)
     {
-        string rna = "" ;
+        // stringa di ritorno 
+        string rna = "" ; 
         for (int i = 0; i < dna.Length; i++)
         {
             switch (dna[i])
